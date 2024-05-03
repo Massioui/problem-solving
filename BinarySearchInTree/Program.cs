@@ -35,3 +35,6 @@ Node? node = root.SearchByValue(searchRightChild3);
 
 // 3 - Print the assert result
 Console.WriteLine(node?.ToString() ?? "No node has been found with the provided search criteria.");
+
+// 4 - Waiting for key to exit
+Console.ReadKey();
