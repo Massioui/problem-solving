@@ -1,0 +1,21 @@
+NOTE:                                                       |
+-------------------------------------------------------------
+
+A Binary Search Tree is a data structure used in computer science for organizing and storing data in a sorted manner. 
+Each node in a Binary Search Tree has at most two children: 
+	- Left child and a right child, with the left child containing values less than the parent node
+    - Right child containing values greater than the parent node. 
+This hierarchical structure allows for efficient searching, insertion, and deletion operations on the data stored in the tree.
+
+
+
+EXAMPLE OF A TREE:                                         |
+------------------------------------------------------------
+
+          (63)
+       /      \
+     (17)      (75)
+     /  \      / \
+   (11) (20) (57) (100)
+                     \
+                    (149)
