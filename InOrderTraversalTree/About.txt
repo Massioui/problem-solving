@@ -1,0 +1,26 @@
+NOTE:                                                       |
+-------------------------------------------------------------
+Task: Implement a function to perform an in-order traversal of a binary tree and return the nodes in sorted order.
+
+ Explanation:
+ * In-order traversal is a method used to visit all the nodes of a binary tree in a ascending order.
+ * In this traversal, nodes are visited in the order of: left child --> current node --> right child.
+ * For a binary search tree (BST), an in-order traversal will visit nodes in ascending order of their values.
+ * The goal is to implement a function that performs this traversal and returns the nodes in sorted order, effectively producing a sorted list of values from the tree.
+
+ Given:
+         (4)
+        /   \
+      (1)    (6)
+     /  \      \
+   (2)  (5)    (7)
+
+ This binary tree represents the following structure:
+ * Root node: Value 4
+   * Left child of the root: Value 1
+     * Left child of node 1: Value 2
+     * Right child of node 1: Value 5
+   * Right child of the root: Value 6
+     * Left child of node 6: Value 7
+
+ * Expected output of in-order traversal: 2, 1, 5, 4, 6, 7

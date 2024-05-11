@@ -71,4 +71,3 @@ internal sealed class Node(int value)
         return stringBuilder.ToString();
     }
 }
-
